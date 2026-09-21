@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer components {
+    .mycontainer {
+        @apply container px-40 mx-auto py-16;
+    }
+}
+
+@media (width > 868px) {
+    .mainContainer {
+        padding-left: 250px;
+        padding-right: 250px;
+        padding-top: 20px;
+    }
+}
+
+@media (width: 412px) {
+    .mainContainer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .passwords h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer {
+        padding-bottom: 15px;
+    }
+}
